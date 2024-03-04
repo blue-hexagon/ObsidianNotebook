@@ -1,5 +1,7 @@
 # Querying FK & M2M's
-## Data for examples
+
+# Querying One-To-Many (FK)
+## Data
 ```python
 class Group(models.Model):
     name = models.CharField(max_length=32, blank=False, null=False)
@@ -8,14 +10,12 @@ class Group(models.Model):
     associated_country = models.CharField(max_length=50, blank=False, null=False) # TODO: Choices
     gps_coordinates = models.CharField(max_length=40, blank=False, null=False)
 
-
 class GroupImage(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     date_created = models.DateTimeField(auto_now_add=True, blank=True)
     image = models.ImageField()
     associated_group = models.ForeignKey("Group", on_delete=models.CASCADE)
 ```
-# Querying One-To-Many (FK)
 ## Filtering Children based off of Parent Fields
 ```python
 Child.object.filter(Parent__column="Value")

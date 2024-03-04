@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Git.md",
+                "file": "Programming/CSS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevOps/Git.md",
+                "file": "Programming/CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevOps/Git.md",
+                "file": "Programming/CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevOps/Git.md"
+                "file": "Programming/CSS.md"
               }
             }
           }
@@ -148,17 +148,17 @@
   },
   "active": "dfcefd329add56e6",
   "lastOpenFiles": [
+    "Programming/Python/Properties.md",
+    "Programming/Python/Decorators.md",
+    "Programming/Python/Django/ORM.md",
+    "DevOps/Git.md",
     "DevOps/Ansible.md",
     "DesignPatterns/Visitor Pattern.md",
     "Programming/OOAD/UML.md",
     "Programming/OOAD/SOLID.md",
     "Programming/CSS.md",
-    "Programming/Python/Properties.md",
-    "Programming/Python/Decorators.md",
-    "Programming/Python/Django/ORM.md",
     "Programming/Python/Django",
     "Programming/Python",
-    "DevOps/Git.md",
     "Programming/OOAD",
     "Programming/Flutter.md",
     "DevOps/YAML.md",
