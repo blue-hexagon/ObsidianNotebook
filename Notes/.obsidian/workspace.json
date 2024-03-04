@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/YAML.md",
+                "file": "DevOps/Git.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevOps/YAML.md",
+                "file": "DevOps/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevOps/YAML.md",
+                "file": "DevOps/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevOps/YAML.md"
+                "file": "DevOps/Git.md"
               }
             }
           }
@@ -146,15 +146,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fcc71fd052136eac",
+  "active": "dfcefd329add56e6",
   "lastOpenFiles": [
+    "DevOps/Ansible.md",
+    "DesignPatterns/Visitor Pattern.md",
+    "Programming/OOAD/UML.md",
+    "Programming/OOAD/SOLID.md",
+    "Programming/CSS.md",
+    "Programming/Python/Properties.md",
+    "Programming/Python/Decorators.md",
+    "Programming/Python/Django/ORM.md",
+    "Programming/Python/Django",
+    "Programming/Python",
+    "DevOps/Git.md",
+    "Programming/OOAD",
+    "Programming/Flutter.md",
+    "DevOps/YAML.md",
+    "Programming",
+    "_/Unicode in 10 Minutes.md",
+    "_",
     "DevOps.md",
     "DevOps",
-    "DesignPatterns/Visitor Pattern.md",
     "DevOps/Vagrant.md",
     "DesignPatterns",
-    "DevOps/Ansible.md",
-    "DevOps/YAML.md",
     "2024-03-04.md"
   ]
 }
