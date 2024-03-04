@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vagrant.md",
+                "file": "DevOps/YAML.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vagrant.md",
+                "file": "DevOps/YAML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vagrant.md",
+                "file": "DevOps/YAML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vagrant.md"
+                "file": "DevOps/YAML.md"
               }
             }
           }
@@ -146,11 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dfcefd329add56e6",
+  "active": "fcc71fd052136eac",
   "lastOpenFiles": [
-    "Ansible.md",
-    "Vagrant.md",
-    "YAML.md",
+    "DevOps.md",
+    "DevOps",
+    "DesignPatterns/Visitor Pattern.md",
+    "DevOps/Vagrant.md",
+    "DesignPatterns",
+    "DevOps/Ansible.md",
+    "DevOps/YAML.md",
     "2024-03-04.md"
   ]
 }
