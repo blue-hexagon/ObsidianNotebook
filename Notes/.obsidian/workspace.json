@@ -4,33 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "ed0f7dcca00ee02e",
+        "id": "2b54d91d777d6deb",
         "type": "tabs",
         "children": [
           {
-            "id": "631a6724490a2d23",
+            "id": "dfcefd329add56e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Vagrant.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "53e3c532ab288224",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e00a650e799f7735",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "Vagrant.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "Vagrant.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,16 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "Vagrant.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,8 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "631a6724490a2d23",
+  "active": "dfcefd329add56e6",
   "lastOpenFiles": [
-    "Welcome.md"
+    "Ansible.md",
+    "Vagrant.md",
+    "YAML.md",
+    "2024-03-04.md"
   ]
 }
