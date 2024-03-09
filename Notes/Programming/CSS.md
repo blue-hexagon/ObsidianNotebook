@@ -6,20 +6,26 @@ Whichover is active depends on whichever has the highest specificity and if two 
 
 Inline styles (`<h1 style="color: blue">`Hello World`</h1>`) does take precende over both the linked and the internal stylesheet.
 ## Specificity & Hierarchy of Precedence
-Each CSS selector has a precise place in the hiearchy of precedence and if two selectors have the same precende level, the last one defined overwrites the latter (aka. taking precedence).
-```
-p               = 1
-p .class        = 11
-p .class #id    = 111
-.class          = 10
-#id             = 100
-body p span#id  = 103
-body .class #id = 111
-```
+Each CSS selector has a precise place in the hiearchy of precedence and if two selectors have the same precende level, the last one defined overwrites the latter (aka. taking precedence), **but**, this is due to inline styles having a higher specififty.
+
+| Selector        | Value |
+|:--------------- |:----- |
+| `!important`    | &inf; |
+| Inline style    | 10000 |
+| CSS Identifiers | 100   |
+| CSS Classes     | 10    |
+| HTML Elements   | 1     |
+
+| Example        | Specificity Value | Explanation                      |
+| -------------- | ----------------- | -------------------------------- |
+| p              | 1                 | One element                      |
+| p .class       | 11                | One element + one class          |
+| p .class \#id  | 111               | One element + one class + one id |
+| .class         | 10                | One class                        |
+| \#id           | 100               | One id                           |
+| body p span#id | 103               | body=1 p=1 span#id=101 => 103    |
 
   
-![billede](https://user-images.githubusercontent.com/26361520/187608751-0860f785-0bef-4e14-9ead-6fae6146344b.png)
-
 ## Inheritance
 Anything related to font, typography and color is inherited and everything else is not.
 An exception to this however is form elements which do not typically inherit font-settings.
